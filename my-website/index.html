@@ -1,84 +1,323 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SineHub</title>
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="preload" href="css/home.css" as="style">
-  <link rel="preload" href="js/home.js" as="script">
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <script defer src="js/home.js"></script>
-</head>
+# HEADER
 
-<body>
-  <div class="navbar">
-    <img src="logo.png" alt="LOGO HERE" />
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <input type="text" class="search-bar" placeholder="Search..." onfocus="openSearchModal()" />
-    </div>
-  </div>
+alt = Filmlane logo
 
-  <div class="banner" id="banner">
-    <h1 id="banner-title"></h1>
-  </div>
+<ion-icon name="search-outline"></ion-icon>
 
-  <div class="row">
-    <h2>Trending Movies</h2>
-    <div class="list" id="movies-list"></div>
-  </div>
+<ion-icon name="globe-outline"></ion-icon>
 
-  <div class="row">
-    <h2>Trending TV Shows</h2>
-    <div class="list" id="tvshows-list"></div>
-  </div>
+EN
+AU
+AR
+TU
 
-  <div class="row">
-    <h2>Trending Anime</h2>
-    <div class="list" id="anime-list"></div>
-  </div>
+Sign in
 
-  <div class="modal" id="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal()" style="color: red;">&times;</span>
-      <div class="modal-body">
-  <img id="modal-image" src="" alt="" />
-  <div class="modal-text">
-    <h2 id="modal-title"></h2>
-    <div class="stars" id="modal-rating"></div>
-    <p id="modal-description"></p>
-  </div>
-</div>
-      
-      <div class="server-selector">
-        <label for="server">Change Server:</label>
-        <select id="server" onchange="changeServer()">
-          <option value="vidsrc.cc">Vidsrc.cc</option>
-          <option value="vidsrc.me">Vidsrc.me</option>
-          <option value="player.videasy.net">Player.Videasy.net</option>
-        </select>
-      </div>
-      <iframe id="modal-video" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
+<ion-icon name="reorder-two"></ion-icon>
 
-  <div class="search-modal" id="search-modal">
-    <span class="close" onclick="closeSearchModal()" style="color: red;">&times;</span>
-    <input type="text" id="search-input" placeholder="Search for a movie or show..." oninput="searchTMDB()" />
-    <div class="results" id="search-results"></div>
-  </div>
+alt = Filmlane logo
 
-<footer class="footer">
-  <div class="footer-content">
-    <p>&copy; 2025 My Website. All rights reserved.</p>
-    <div class="footer-links">
-      <a href="#">Disclaimer</a>
-      <a href="#">About Us</a>
-      <a href="#">Contact Us</a>
-    </div>
-  </div>
-</footer>
+<ion-icon name="close-outline"></ion-icon>
 
-  
-</body>
+Home
+Movie
+Tv Show
+Web Series
+Pricing
+
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-pinterest"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
+
+
+
+# HERO
+
+Filmlane
+Unlimited Movie, TVs Shows, & More.
+
+PG 18
+HD
+
+Romance,
+Drama
+
+<ion-icon name="calendar-outline"></ion-icon>
+2022
+
+<ion-icon name="time-outline"></ion-icon>
+128 min
+
+<ion-icon name="play"></ion-icon>
+Watch now
+
+
+
+# UPCOMING
+
+Online Streaming
+
+Upcoming Movies
+
+Movies
+TV Shows
+Anime
+
+alt = The Northman movie poster
+
+The Northman
+2022
+HD
+<ion-icon name="time-outline"></ion-icon>
+137 min
+<ion-icon name="star"></ion-icon>
+8.5
+
+alt = Doctor Strange in the Multiverse of Madness movie poster
+
+Doctor Strange in the Multiverse of Madness
+4K
+126 min
+NR
+
+alt = Memory movie poster
+
+Memory
+2K
+N/A
+NR
+
+alt = The Unbearable Weight of Massive Talent movie poster
+
+The Unbearable Weight of Massive Talent
+107 min
+NR
+
+
+
+# SERVICE
+
+alt = HD 4k resolution! only $3.99
+
+Download
+<ion-icon name="download-outline"></ion-icon>
+
+Our Services
+
+Download Your Shows Watch Offline.
+
+Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.
+
+<ion-icon name="tv"></ion-icon>
+Enjoy on Your TV.
+
+Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.
+
+<ion-icon name="videocam"></ion-icon>
+Watch Everywhere.
+
+
+
+# TOP RATED
+
+Online Streaming
+
+Top Rated Movies
+
+Movies
+Tv Shows
+Documentary
+Sports
+
+alt = Sonic the Hedgehog 2 movie poster
+
+Sonic the Hedgehog 2
+2022
+2K
+122 min
+7.8
+
+alt = Morbius movie poster
+
+Morbius
+2022
+HD
+104 min
+5.9
+
+alt = The Adam Project movie poster
+
+The Adam Project
+2022
+4K
+106 min
+7.0
+
+alt = Free Guy movie poster
+
+Free Guy
+2021
+4K
+115 min
+7.7
+
+alt = The Batman movie poster
+
+The Batman
+2022
+4K
+176 min
+7.9
+
+alt = Uncharted movie poster
+
+Uncharted
+2022
+HD
+116 min
+7.0
+
+alt = Death on the Nile movie poster
+
+Death on the Nile
+2022
+2K
+127 min
+6.5
+
+alt = The King's Man movie poster
+
+The King's Man
+2021
+HD
+131 min
+7.0
+
+
+
+# TV SERIES
+
+Best TV Series
+
+World Best TV Series
+
+alt = Moon Knight movie poster
+
+Moon Knight
+2022
+2K
+47 min
+8.6
+
+alt = Halo movie poster
+
+Halo
+2022
+2K
+59 min
+8.8
+
+alt = Vikings: Valhalla movie poster
+
+Vikings: Valhalla
+2022
+2K
+51 min
+8.3
+
+alt = Money Heist movie poster
+
+Money Heist
+2017
+4K
+70 min
+8.3
+
+
+
+# CTA
+
+Trial start first 30 days.
+
+Enter your email to create or restart your membership.
+
+placeholder = Enter your email
+
+Get started
+
+
+
+# FOOTER
+
+alt = Filmlane logo
+
+Home
+Movie
+TV Show
+Web Series
+Pricing
+
+Faq
+Help center
+Terms of use
+Privacy
+
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-pinterest"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+
+&copy; 2022 codewithsadee. All Rights Reserved
+
+alt = Online banking companies logo
+
+
+
+# GO TO TOP
+
+<ion-icon name="chevron-up"></ion-icon>
+
+
+
+# MOVIE DETAILS
+
+Free Guy 2021
+
+
+alt = Free guy movie poster
+
+<ion-icon name="play-circle-outline"></ion-icon>
+
+New Episodes
+
+Free Guy
+
+PG 13
+HD
+
+Comedy, 
+Action, 
+Adventure, 
+Science Fiction
+
+<ion-icon name="calendar-outline"></ion-icon>
+2021
+
+<ion-icon name="time-outline"></ion-icon>
+115 min
+
+A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.
+
+<ion-icon name="share-social"></ion-icon>
+Share
+
+Prime Video
+Streaming Channels
+
+<ion-icon name="play"></ion-icon>
+Watch Now
+
+Download
+<ion-icon name="download-outline"></ion-icon>
